@@ -1,0 +1,43 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;scroll-behavior: smooth;
+    display:flex;text-align: justify;justify-content: center;
+}
+.main-container{
+    position: absolute;top:0;
+}
+#main-header{
+    width: 100%;padding: 0 8px 0 8px;box-shadow:3px 0px 5px 5px black;
+    position: fixed;background-color: white;
+}
+section{
+    background-color: white;
+    padding:10px;margin:8px;
+}
+#koalaImg{
+    width: 1350px;height: 500px;
+}
+#kangaroo-img-wrap>img{
+    width:400px;height:250px;
+}
+.img-wrap>img{
+    width:300px;height:250px;
+}
+.bird-img-wrap>img{
+    width:250px;height:250px;
+}
+a{
+    color:green;text-decoration: none;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 990px) {
+    #koalaImg{
+        width:600px;height: inherit;
+    }
+}
+@media only screen and (max-width: 580px) {
+    #koalaImg{
+        width:480px;height: inherit;
+    }
+}
